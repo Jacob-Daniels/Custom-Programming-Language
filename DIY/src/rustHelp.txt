@@ -1,0 +1,10 @@
+To build:
+Open terminal (View -> Terminal) and enter 'cargo build'
+
+Run Project (Correctly):
+Head to the CMD and set the directory to the project.
+Run the following commands:
+- cargo build
+- cargo run
+
+Project should have now run.

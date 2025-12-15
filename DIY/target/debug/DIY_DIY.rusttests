@@ -1,0 +1,10 @@
+{
+  "ThisPath": "C:\\Github_Repositories\\Custom-Programming-Language\\DIY\\target\\debug\\DIY_DIY.rusttests",
+  "Manifest": "C:\\Github_Repositories\\Custom-Programming-Language\\DIY\\Cargo.toml",
+  "TargetDir": "C:\\Github_Repositories\\Custom-Programming-Language\\DIY\\target",
+  "AdditionalTestDiscoveryArguments": "",
+  "AdditionalTestExecutionArguments": "--show-output\u0000--test-threads\u00001",
+  "TestExecutionEnvironment": "RUST_BACKTRACE=full\u0000\u0000",
+  "Profile": "dev",
+  "TestExes": []
+}
