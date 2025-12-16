@@ -5,6 +5,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Github_Repositories\\Custom-Programming-Language\\DIY\\src\\main.rs||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\main.rs||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Github_Repositories\\Custom-Programming-Language\\DIY\\src\\rustHelp.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\rustHelp.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Github_Repositories\\Custom-Programming-Language\\DIY\\src\\Lexer\\Tokeniser.rs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Lexer\\Tokeniser.rs||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,11 +22,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Tokeniser.rs",
+              "DocumentMoniker": "C:\\Github_Repositories\\Custom-Programming-Language\\DIY\\src\\Lexer\\Tokeniser.rs",
+              "RelativeDocumentMoniker": "src\\Lexer\\Tokeniser.rs",
+              "ToolTip": "C:\\Github_Repositories\\Custom-Programming-Language\\DIY\\src\\Lexer\\Tokeniser.rs",
+              "RelativeToolTip": "src\\Lexer\\Tokeniser.rs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "cb4a8fc6-efe7-424a-b611-23adf22b568e.000030|",
+              "WhenOpened": "2025-12-16T20:58:38.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "rustHelp.txt",
+              "DocumentMoniker": "C:\\Github_Repositories\\Custom-Programming-Language\\DIY\\src\\rustHelp.txt",
+              "RelativeDocumentMoniker": "src\\rustHelp.txt",
+              "ToolTip": "C:\\Github_Repositories\\Custom-Programming-Language\\DIY\\src\\rustHelp.txt",
+              "RelativeToolTip": "src\\rustHelp.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-12-16T20:58:00.604Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -28,7 +62,7 @@
               "RelativeDocumentMoniker": "src\\main.rs",
               "ToolTip": "C:\\Github_Repositories\\Custom-Programming-Language\\DIY\\src\\main.rs",
               "RelativeToolTip": "src\\main.rs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "cb4a8fc6-efe7-424a-b611-23adf22b568e.000030|",
               "WhenOpened": "2025-12-15T13:55:30.239Z",
               "EditorCaption": ""

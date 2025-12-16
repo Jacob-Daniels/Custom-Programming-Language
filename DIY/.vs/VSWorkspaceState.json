@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\src"
+    "\\src",
+    "\\src\\Lexer"
   ],
   "SelectedNode": "\\src\\main.rs",
   "PreviewInSolutionExplorer": false
