@@ -1,0 +1,5 @@
+// DIY Language
+
+// public function[void] MyFunc(PARAMETERS) { }
+
+public function[void] MyFunc(PARAMETERS) { c.p("Print"); }
