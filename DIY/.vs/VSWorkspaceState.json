@@ -2,6 +2,7 @@
   "ExpandedNodes": [
     "",
     "\\src",
+    "\\src\\Core",
     "\\src\\Lexer"
   ],
   "SelectedNode": "\\src\\main.rs",

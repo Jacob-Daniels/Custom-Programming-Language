@@ -1,4 +1,7 @@
 // Add modules
+mod Core {
+    pub mod Strings;
+}
 mod Lexer {
     pub mod Token;
     pub mod Tokeniser;
@@ -6,7 +9,7 @@ mod Lexer {
 
 // Import specific functions from libraries/modules
 use std::fs; // Read files
-use std::io::BufRead;
+use std::io::{self, BufReader, BufRead};
 
 fn main() {
     println!("Hello, world!");
@@ -14,11 +17,18 @@ fn main() {
 	let tokens: Vec<i8> = Vec::new();
 
     // Lexer
-    let mut _filePath : String = String::from("DIY.txt");
+    let _filePath : String = String::from("src/DIY.txt");
     // Read file
-    let _input : String = fs::read_to_string("DIY.txt").expect(&concat_strings("Unable to read ", _filePath));
+
+    let _file = std::fs::File::open(&_filePath);
+    
+    // FIX THIS LINE: _FILE IS NOT RECOGNISED BY BUFREADER...
+    let _fileReader = std::io::BufReader::new(_file);
+
+
+    //let _input : String = fs::read_to_string(&_filePath).expect(&Core::Strings::concat_strings("Unable to read ", &_filePath));
     // Tokenise file input
-    let _tokens : Vec<Lexer::Token::Token> = Lexer::Tokeniser::tokenise(_input);
+    //let _tokens : Vec<Lexer::Token::Token> = Lexer::Tokeniser::tokenise(_input);
 
     let mut inputReader: std::io::StdinLock<'static> = std::io::stdin().lock();
     input.clear();
@@ -32,4 +42,3 @@ fn main() {
     }
 }
 
-pub fn concat_strings(_string1 : &str, _string2 : String) -> String { return format!("{_string1}{_string2}"); }
