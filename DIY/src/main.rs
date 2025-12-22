@@ -1,5 +1,6 @@
 // Add modules
 mod Core {
+    pub mod FileReader;
     pub mod Strings;
 }
 mod Lexer {
@@ -20,11 +21,13 @@ fn main() {
     let _filePath : String = String::from("src/DIY.txt");
     // Read file
 
-    let _file = std::fs::File::open(&_filePath);
-    
-    // FIX THIS LINE: _FILE IS NOT RECOGNISED BY BUFREADER...
-    let _fileReader = std::io::BufReader::new(_file);
+    // Find and open file
+    //let _file = std::fs::File::open(&_filePath).expect("Couldnt open file");
 
+    // Create file reader
+    //let _fileReader = std::io::BufReader::new(_file);
+
+    
 
     //let _input : String = fs::read_to_string(&_filePath).expect(&Core::Strings::concat_strings("Unable to read ", &_filePath));
     // Tokenise file input

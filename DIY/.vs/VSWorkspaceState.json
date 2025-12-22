@@ -2,9 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\src",
-    "\\src\\Core",
-    "\\src\\Lexer"
+    "\\src\\Core"
   ],
-  "SelectedNode": "\\src\\main.rs",
+  "SelectedNode": "\\src\\Core\\FileReader.rs",
   "PreviewInSolutionExplorer": false
 }
