@@ -11,8 +11,10 @@ mod Lexer {
 // Import specific functions from libraries/modules
 use std::fs; // Read files
 use std::io::{self, BufReader, BufRead};
+use std::ptr::null;
+use crate::Core::FileReader::FileReader;
 
-fn main() {
+fn main() -> io::Result<()> {
     println!("Hello, world!");
     let mut input = String::new();
 	let tokens: Vec<i8> = Vec::new();
@@ -21,27 +23,17 @@ fn main() {
     let _filePath : String = String::from("src/DIY.txt");
     // Read file
 
-    // Find and open file
-    //let _file = std::fs::File::open(&_filePath).expect("Couldnt open file");
+    // Custom file reader
 
-    // Create file reader
-    //let _fileReader = std::io::BufReader::new(_file);
 
-    
+    let mut fileReader = FileReader::open_file(_filePath)?;
 
-    //let _input : String = fs::read_to_string(&_filePath).expect(&Core::Strings::concat_strings("Unable to read ", &_filePath));
-    // Tokenise file input
-    //let _tokens : Vec<Lexer::Token::Token> = Lexer::Tokeniser::tokenise(_input);
-
-    let mut inputReader: std::io::StdinLock<'static> = std::io::stdin().lock();
-    input.clear();
-    match inputReader.read_line(&mut input) {
-        Ok(n) => {
-            println!("Working: {n} bytes read from {input}");
-        }
-        Err(error) => {
-            println!("Not working: {error}");
-        }
+    // Loop lines
+    let mut buffer = String::new();
+    while let Some(line) = fileReader.read_line(&mut buffer) {
+        println!("{}", line?.trim());
     }
+
+    Ok(())
 }
 

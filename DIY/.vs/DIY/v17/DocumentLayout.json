@@ -52,9 +52,9 @@
               "RelativeDocumentMoniker": "src\\Core\\FileReader.rs",
               "ToolTip": "C:\\Github_Repositories\\Custom-Programming-Language\\DIY\\src\\Core\\FileReader.rs",
               "RelativeToolTip": "src\\Core\\FileReader.rs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "cb4a8fc6-efe7-424a-b611-23adf22b568e.000030|",
-              "WhenOpened": "2025-12-22T14:22:28.673Z",
+              "WhenOpened": "2025-12-22T22:00:01.828Z",
               "EditorCaption": ""
             },
             {
@@ -92,8 +92,7 @@
               "RelativeToolTip": "src\\Core\\Strings.rs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA2AAAAAAAAAA==",
               "Icon": "cb4a8fc6-efe7-424a-b611-23adf22b568e.000030|",
-              "WhenOpened": "2025-12-19T11:28:44.587Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-19T11:28:44.587Z"
             },
             {
               "$type": "Document",
@@ -105,8 +104,7 @@
               "RelativeToolTip": "src\\DIY.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-12-18T11:37:11.209Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-18T11:37:11.209Z"
             },
             {
               "$type": "Document",
